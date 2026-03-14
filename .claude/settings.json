@@ -2,8 +2,13 @@
   "hooks": {
     "PreCompact": [
       {
-        "type": "command",
-        "command": "echo '⚠️ Context compression imminent. Save critical state to quality_reports/ session log before proceeding.'"
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Context compression imminent. Save critical state to quality_reports/ session log before proceeding.'"
+          }
+        ]
       }
     ]
   }
