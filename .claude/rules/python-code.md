@@ -1,7 +1,6 @@
 ---
 description: Python coding standards for ecology research — PEP 8, ecology packages, reproducible pipelines
-globs: "*.py,*.ipynb"
-alwaysApply: false
+paths: "*.py,*.ipynb"
 ---
 
 # Python Code Standards

@@ -1,7 +1,6 @@
 ---
 description: LaTeX standards for ecology manuscripts — journal templates, BibTeX, figure inclusion
-globs: "*.tex,*.bib,*.cls,*.sty"
-alwaysApply: false
+paths: "*.tex,*.bib,*.cls,*.sty"
 ---
 
 # LaTeX Rules

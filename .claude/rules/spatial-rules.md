@@ -1,7 +1,6 @@
 ---
 description: Spatial data standards — CRS, projections, resolution, raster/vector conventions
-globs: "*.shp,*.tif,*.tiff,*.gpkg,*.geojson,*.nc"
-alwaysApply: false
+paths: "*.shp,*.tif,*.tiff,*.gpkg,*.geojson,*.nc"
 ---
 
 # Spatial Data Rules

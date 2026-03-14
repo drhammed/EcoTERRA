@@ -1,7 +1,6 @@
 ---
 description: Enforces plan-first workflow and quality gates for all non-trivial tasks
-globs: *
-alwaysApply: true
+paths: *
 ---
 
 # Contractor Mode

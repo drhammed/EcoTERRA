@@ -1,7 +1,6 @@
 ---
 description: Data management rules — FAIR principles, immutable raw data, documentation standards
-globs: "Data/**"
-alwaysApply: false
+paths: "Data/**"
 ---
 
 # Data Rules

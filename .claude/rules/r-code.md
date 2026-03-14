@@ -1,7 +1,6 @@
 ---
 description: R coding standards for ecology research — tidyverse style, ecology packages, reproducible pipelines
-globs: "*.R,*.Rmd,*.r"
-alwaysApply: false
+paths: "*.R,*.Rmd,*.r"
 ---
 
 # R Code Standards

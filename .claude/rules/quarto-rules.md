@@ -1,7 +1,6 @@
 ---
 description: Quarto standards for ecology manuscripts and presentations
-globs: "*.qmd,*.yml"
-alwaysApply: false
+paths: "*.qmd,*.yml"
 ---
 
 # Quarto Rules

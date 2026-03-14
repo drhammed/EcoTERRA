@@ -1,7 +1,5 @@
 ---
 description: Ecological terminology, naming conventions, and reporting standards for quantitative ecology research
-globs: *
-alwaysApply: true
 ---
 
 # Ecology Conventions
@@ -122,6 +120,7 @@ For studies using observational data where detection is imperfect:
 - Use present tense for established facts and discussion
 - Avoid jargon when simpler terms suffice, but use technical terms precisely
 - Define abbreviations on first use
+- **Avoid em-dashes, colons, and semicolons** unless absolutely necessary. Use commas or split into separate sentences instead. Overuse of these punctuation marks reduces readability in academic writing
 
 ### Figure Standards
 
