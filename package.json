@@ -18,17 +18,24 @@
     "academic-workflow",
     "ecoterra"
   ],
-  "author": "",
+  "author": "Hammed Akande",
   "license": "MIT",
+  "type": "module",
   "files": [
     "bin/",
     "ecoterra/",
-    "templates/",
+    "install.sh",
+    ".gitignore",
     "CLAUDE.md",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/hammedakandeadedamola/EcoTERRA.git"
+  },
+  "homepage": "https://github.com/hammedakandeadedamola/EcoTERRA#readme",
+  "bugs": {
+    "url": "https://github.com/hammedakandeadedamola/EcoTERRA/issues"
   }
 }
