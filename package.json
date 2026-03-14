@@ -1,6 +1,6 @@
 {
   "name": "ecoterra",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "EcoTERRA — Ecological Tools for Evidence-based Research, Reproducibility & Analysis. A multi-agent method for quantitative ecology research.",
   "bin": {
     "ecoterra": "bin/ecoterra.mjs"
