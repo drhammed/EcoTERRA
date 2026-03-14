@@ -50,7 +50,7 @@ npx ecoterra install
 ```bash
 git clone https://github.com/drhammed/EcoTERRA.git
 cd EcoTERRA
-claude  # Start Claude Code — agents, skills, and rules are auto-detected
+claude  # Start Claude Code — agents, commands, and rules are auto-detected
 ```
 
 ### Option 3: Shell script (no npm required)

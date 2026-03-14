@@ -45,7 +45,7 @@ function installClaude() {
   const ecoterraDir = join(PKG_ROOT, "ecoterra");
 
   const agents = copyDirContents(join(ecoterraDir, "agents"), join(claudeDir, "agents"));
-  const skills = copyDirContents(join(ecoterraDir, "workflows"), join(claudeDir, "skills"));
+  const commands = copyDirContents(join(ecoterraDir, "workflows"), join(claudeDir, "commands"));
   const rules = copyDirContents(join(ecoterraDir, "rules"), join(claudeDir, "rules"));
   mkdirSync(join(claudeDir, "hooks"), { recursive: true });
 
@@ -56,9 +56,9 @@ function installClaude() {
     console.log("  CLAUDE.md copied to project root");
   }
 
-  console.log(`  Agents: ${agents} files`);
-  console.log(`  Skills: ${skills} files`);
-  console.log(`  Rules:  ${rules} files`);
+  console.log(`  Agents:   ${agents} files`);
+  console.log(`  Commands: ${commands} files`);
+  console.log(`  Rules:    ${rules} files`);
   console.log(green("Claude Code adapter installed successfully.\n"));
 }
 

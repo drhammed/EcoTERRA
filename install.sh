@@ -50,7 +50,7 @@ install_claude() {
     echo -e "${GREEN}Installing Claude Code adapter...${NC}"
 
     local claude_dir="$SCRIPT_DIR/.claude"
-    mkdir -p "$claude_dir/agents" "$claude_dir/skills" "$claude_dir/rules" "$claude_dir/hooks"
+    mkdir -p "$claude_dir/agents" "$claude_dir/commands" "$claude_dir/rules" "$claude_dir/hooks"
 
     # Copy agents
     if [ -d "$ECOTERRA_DIR/agents" ]; then
@@ -60,12 +60,12 @@ install_claude() {
         echo "  Agents: $(count_md_files "$ECOTERRA_DIR/agents") files"
     fi
 
-    # Copy workflows → skills
+    # Copy workflows → commands (slash commands)
     if [ -d "$ECOTERRA_DIR/workflows" ]; then
         for f in "$ECOTERRA_DIR/workflows"/*.md; do
-            [ -f "$f" ] && cp "$f" "$claude_dir/skills/"
+            [ -f "$f" ] && cp "$f" "$claude_dir/commands/"
         done
-        echo "  Skills: $(count_md_files "$ECOTERRA_DIR/workflows") files"
+        echo "  Commands: $(count_md_files "$ECOTERRA_DIR/workflows") files"
     fi
 
     # Copy rules
