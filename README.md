@@ -48,14 +48,14 @@ npx ecoterra install
 
 ### Option 2: Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/EcoTERRA.git
+git clone https://github.com/drhammed/EcoTERRA.git
 cd EcoTERRA
 claude  # Start Claude Code — agents, skills, and rules are auto-detected
 ```
 
 ### Option 3: Shell script (no npm required)
 ```bash
-git clone https://github.com/YOUR_USERNAME/EcoTERRA.git
+git clone https://github.com/drhammed/EcoTERRA.git
 cd EcoTERRA
 chmod +x install.sh
 ./install.sh                     # For Claude Code (default)

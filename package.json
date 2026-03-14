@@ -32,10 +32,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hammedakandeadedamola/EcoTERRA.git"
+    "url": "git+https://github.com/drhammed/EcoTERRA.git"
   },
-  "homepage": "https://github.com/hammedakandeadedamola/EcoTERRA#readme",
+  "homepage": "https://github.com/drhammed/EcoTERRA#readme",
   "bugs": {
-    "url": "https://github.com/hammedakandeadedamola/EcoTERRA/issues"
+    "url": "https://github.com/drhammed/EcoTERRA/issues"
   }
 }
