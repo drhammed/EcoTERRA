@@ -1,0 +1,34 @@
+{
+  "name": "ecoterra",
+  "version": "0.1.0",
+  "description": "EcoTERRA — Ecological Tools for Evidence-based Research, Reproducibility & Analysis. A multi-agent method for quantitative ecology research.",
+  "bin": {
+    "ecoterra": "./bin/ecoterra.mjs"
+  },
+  "keywords": [
+    "ecology",
+    "quantitative-ecology",
+    "ai-agent",
+    "research-assistant",
+    "species-distribution-models",
+    "biodiversity",
+    "claude-code",
+    "cursor",
+    "multi-agent",
+    "academic-workflow",
+    "ecoterra"
+  ],
+  "author": "",
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "ecoterra/",
+    "templates/",
+    "CLAUDE.md",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

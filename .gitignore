@@ -1,0 +1,73 @@
+# Data - raw data can be large; track metadata only
+Data/raw/*.csv
+Data/raw/*.xlsx
+Data/raw/*.rds
+Data/raw/*.rda
+Data/raw/*.zip
+Data/raw/*.tar.gz
+Data/environmental/*.tif
+Data/environmental/*.nc
+Data/environmental/*.hdf
+
+# R artifacts
+.Rhistory
+.Rdata
+.RData
+*.Rproj.user
+.Rproj.user/
+**/.Rproj.user/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Model objects (can be large)
+Models/*.rds
+Models/*.pkl
+Models/*.h5
+Models/*.pt
+
+# LaTeX build artifacts
+Paper/*.aux
+Paper/*.bbl
+Paper/*.blg
+Paper/*.log
+Paper/*.out
+Paper/*.fdb_latexmk
+Paper/*.fls
+Paper/*.synctex.gz
+Paper/*.toc
+Paper/*.lof
+Paper/*.lot
+
+# Talks build artifacts
+Talks/*.aux
+Talks/*.bbl
+Talks/*.blg
+Talks/*.log
+Talks/*.out
+Talks/*.nav
+Talks/*.snm
+Talks/*.toc
+Talks/*.vrb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.code-workspace
+
+# Sensitive files
+.env
+*.credentials
+*secrets*
+
+# Internal dev files
+Progress_Tracker.md
+EcoTERRA_idea.md
