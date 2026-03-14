@@ -162,4 +162,4 @@ EcoTERRA ships with ecology domain knowledge in `ecoterra/knowledge/`:
 
 ## License
 
-MIT
+[MIT](LICENSE)
